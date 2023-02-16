@@ -1,0 +1,9 @@
+.WordSearched{
+    margin: 0 auto;
+    width: 77%;
+    height: 6rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
