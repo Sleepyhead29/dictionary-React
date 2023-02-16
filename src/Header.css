@@ -1,0 +1,13 @@
+header{
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .displayOptions{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}

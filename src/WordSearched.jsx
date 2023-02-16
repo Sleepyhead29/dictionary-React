@@ -1,6 +1,6 @@
 export default function WordSearched(){
     return (
-        <div className="wordSearched">
+        <div className="WordSearched">
           <div className="word">
             <h1>Hello</h1>
             <p>In latin</p>

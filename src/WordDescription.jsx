@@ -1,6 +1,6 @@
 export default function WordDescription(){
     return (
-        <div className="wordDescription">
+        <div className="WordDescription">
           <h2>Word type(ex:type)</h2>
           <div className="definition">
             <ul>
