@@ -1,0 +1,16 @@
+
+form{
+    margin-top: 1rem;
+}
+
+input[type="text"] {
+  width: 20rem;
+  height: 3rem;
+  background-color: rgb(242, 240, 240);
+  border-style: none;
+  border-radius: 1em;
+  margin-left: 10px;
+  padding-left: 2em;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
