@@ -1,0 +1,45 @@
+.type{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.type hr{
+    width: 50%;
+    margin-left: 1em;
+    height: 0.5px;
+    color: rgb(242, 240, 240);
+}
+
+.WordDescription{
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+}
+.definition{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+.definition h3{
+    color: rgb(168, 168, 168);
+    margin-bottom: 5px;
+}
+.WordDescription ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.WordDescription ul li{
+    text-align: justify;
+    color: rgb(44, 43, 43);
+    margin: 0.5em;
+}
+
+.synonyms{
+margin-top: 2em;
+}
+.synonyms span{
+    color: rgb(176, 26, 176);
+}
