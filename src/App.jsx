@@ -10,6 +10,7 @@ function App() {
       <UserInput/>
       <WordSearched/>
       <WordDescription/>
+      <hr />
         <p>Source</p>
     </div>
   );
