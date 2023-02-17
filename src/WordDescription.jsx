@@ -1,31 +1,32 @@
 import "./WordDescription.css";
-export default function WordDescription() {
+export default function WordDescription({ searchedWord }) {
   return (
     <div className="WordDescription">
-      <div className="type">
-        Word type(ex:type)
-        <hr />
-      </div>
-      <div className="definition">
-        <h3>Meaning</h3>
-        <ul>
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            suscipit porro dolor ut dicta illum quasi tempora fuga rerum. Eum,
-            eveniet veritatis consequatur voluptas eligendi iste maiores aut ut
-            voluptatibus.
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            suscipit porro dolor ut dicta.
-          </li>
-        </ul>
+          {searchedWord.meanings.map((meaning) => {
+            return (
+              <>
+                <div className="type">
+                  {meaning.partOfSpeech}
+                  <hr />
+                </div>
+                <div className="definition">
+                  <h3>Meaning</h3>
+                  <ul>
+                    {meaning.definitions.map((definition) =>{
+                      return <li>{definition.definition}</li>
+                    })}
+                  </ul>
+                </div>
+              </>
+            );
+          })}
+        
         <div className="synonyms">
           <p>
             Synonyms:<span>blablabls</span>
           </p>
         </div>
-      </div>
+      
     </div>
   );
 }

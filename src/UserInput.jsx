@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import './UserInput.css';
 
-export default function UserInput({currentWord,setCurrentWord,fetchWordDictionary}){
+export default function UserInput({setCurrentWord}){
   // Fetch word in dictionary only when form is submitted
   const userInput = useRef();
 function handleSearch(e){
