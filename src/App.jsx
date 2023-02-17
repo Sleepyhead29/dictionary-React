@@ -19,7 +19,6 @@ function App() {
     return result;
     }
     
-    
   }
   useEffect(() => {
    fetchWordDictionary(currentWord);

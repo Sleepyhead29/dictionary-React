@@ -51,6 +51,9 @@
 .synonyms{
 margin-top: 1em;
 }
+.synonyms p{
+   display: inline-block;
+    }
 .synonyms span{
     margin-left: 5px;
     color: rgb(176, 26, 176);
