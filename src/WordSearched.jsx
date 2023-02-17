@@ -6,7 +6,7 @@ export default function WordSearched({searchedWord}){
         <div className="WordSearched">
           <div className="word">
             <h1>{searchedWord.word}</h1>
-            <p>In latin</p>
+            <p>{searchedWord.phonetic}</p>
           </div>
           <button>Play Sound</button>
         </div>

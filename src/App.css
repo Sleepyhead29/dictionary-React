@@ -28,15 +28,4 @@
   color: #61dafb;
 }
 
-.App>hr{
-  margin: 1em auto;
-  height: 0.5px;
-  color: rgb(242, 240, 240);
-  width: 90%;
-}
-
-.App>p{
-  margin-top: 1em;margin-left: 3em;
-  text-align: left;
-}
 
