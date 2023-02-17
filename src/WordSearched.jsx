@@ -8,7 +8,6 @@ export default function WordSearched({searchedWord}){
             <h1>{searchedWord.word}</h1>
             <p>{searchedWord.phonetic}</p>
           </div>
-          <button>Play Sound</button>
         </div>
         <WordDescription searchedWord = {searchedWord}/>
         </>
