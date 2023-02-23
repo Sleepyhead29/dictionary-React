@@ -36,7 +36,6 @@ function App() {
   useEffect(() => {
     console.log(responseState);
   }, [responseState]);
-  //Array.isArray(searchedWord)
   return (
     <div className="App">
       <Header />
